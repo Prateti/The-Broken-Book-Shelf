@@ -1,0 +1,98 @@
+body{
+    
+    margin: 0;
+    position: relative;
+    
+    	
+}
+
+h1{
+
+	display: inline-block;
+	font-family: cursive;
+
+}
+
+h3{
+
+	display: inline-block;
+	position: absolute;
+	top: 75%;
+	left:37%;
+	font-family:cursive;
+
+}
+
+hr{
+				border-width:5px ;
+				border-color:grey;
+				width:20%;
+				border-style:dotted none none ;
+	}
+
+.maincontainer{
+	display: block;
+	height: 400px;
+	position: relative;
+}
+
+.maincontainerleft{
+   
+   display: inline-block;
+   width: 60%;
+   background-color: #dddd;
+   position: absolute;
+   left:0;
+   padding-top: 5%;
+   height:400px;
+   text-align: center;
+   text-decoration-color: #e19999;
+}
+
+
+.maincontainerright{
+    
+    display: inline-block;
+	width: 40%;
+	height:400px;
+	position: absolute;
+	right: 0;
+	background-image: url("../images/books.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-top: 5%;
+}
+
+.bookquote{
+
+	height: 53%;
+	width: 30%;
+	position: absolute;
+	left: 0;
+	top:43%;
+	border: solid;
+}
+
+.middlecontainer{
+
+	height: 600px;
+	width: 95%;
+	position: absolute;
+	top: 464.750px;
+	padding-left: 5%;
+	padding-top: 3%;
+	background-color: #fab7b7;
+	display: inline-block;
+}
+
+.bookcover{
+
+     position: absolute;
+     right: 0%;
+     height: 23%;
+	 width: 40%;
+}
+
+
+
